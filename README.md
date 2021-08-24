@@ -17,7 +17,7 @@
 ## Type of data structure
 - 2 Basic DS
     - Primitive 
-        - Provide by Programming Language
+        - Built-in, Provide by Programming Language
         - Integer
         - Float 
         - Character
@@ -71,3 +71,23 @@
 
 - Randomized algorithms
     - Use a random number at least once during the computation to make a decision.
+
+## Recursion
+> it's a way of solving a probelm by having a function calling itself.
+- it's a method of solving a problem where the solution depends on the solution to the smaller instance of same probelm.
+- such probelms can be solved by iteration as well.
+- Real-life example Russian Doll
+- Properties: 
+    - Performing the same opration multiple times with different inputs
+    - In  every step we try smaller inputs to make the problem smaller.
+    - Base condition is needed to stop recursion, otherwise infinite loop wil occur.
+> A programmer's wife tells him as he leaves the house: " While you're out, buy some milk."
+He never returns home and the universe runs out of milk.
+
+```python
+def openRussianDoll(doll):
+    if doll === 1: #Base condition
+        print('All dolls are opened')
+    else:
+        openRussianDoll(doll-1) # Recursion
+```
