@@ -16,29 +16,29 @@
 
 ## Type of data structure
 - 2 Basic DS
-    - Primitive 
+    - **Primitive** 
         - Built-in, Provide by Programming Language
         - Integer
         - Float 
         - Character
         - String
         - Boolean
-    - Non-Primitive
+    - **Non-Primitive**
         - User-defined DS ,
         - it's Derived from primitive data types by combining two or more primitive DS
         - Subdivided as,
-            - Linear
+            - **Linear**
                 - the data items arranged in memory in a linear , sequential manner
                 - Either static or dynamic
-                - Static
+                - **Static**
                     > sizes and structures associated memory locations are fixed, at compile time
                     - Array
-                - Dynamic
+                - **Dynamic**
                     > Associated memory locations change.
                     - Linked List
                     - Stack
                     - Queue
-            - Non-linear
+            - **Non-linear**
                 > The data item is connected to  several other items , they are not organized squentially.
                 - Possible for a data item to connected with more than one data items.
                 - Graph 
@@ -90,4 +90,37 @@ def openRussianDoll(doll):
         print('All dolls are opened')
     else:
         openRussianDoll(doll-1) # Recursion
+```
+
+### Why Recursion
+- Recursive thinking is really important in programming and it helps you break down big probelms into smaller ones and easier to use
+- Recursive solution can be simpler to read than - iterative one
+- Recusion used all the  time every language , every field
+- easy to write compare to iterative(loops) code
+- we can use all the place Recursion over iterative - because some situations  iteration fast
+
+#### When to choose recursion?
+- If you can divide the problem inti simialr problems
+- (important) subproblems must be similar
+    -  Design an algorithm to  compute nth(?)...
+    - Write code to  list the n...
+    - implement a method to compute all.
+    - pratice(Pratice more you know)
+- The prominent usage of recursion in DS like trees and graphs.
+- Used in many algorithms
+    - DnC (Divide and conquer)
+    - greedy 
+    - dynamic programming
+
+### How recusion work?
+- 2 conditions
+    - A conditions where method calls itself with samller values.
+    - Exit from infinite loop.
+
+```python
+def recursionMethod(parameters):
+    if exit from condition satisfied: #base condition
+        return somevalue # break from loop
+    else:
+        recursionMethod(modified Parameter)
 ```
