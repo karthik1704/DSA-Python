@@ -77,7 +77,7 @@
 - it's a method of solving a problem where the solution depends on the solution to the smaller instance of same probelm.
 - such probelms can be solved by iteration as well.
 - Real-life example Russian Doll
-- Properties: 
+- __Properties:__ 
     - Performing the same opration multiple times with different inputs
     - In  every step we try smaller inputs to make the problem smaller.
     - Base condition is needed to stop recursion, otherwise infinite loop wil occur.
@@ -97,7 +97,7 @@ def openRussianDoll(doll):
 - Recursive solution can be simpler to read than - iterative one
 - Recusion used all the  time every language , every field
 - easy to write compare to iterative(loops) code
-- we can use all the place Recursion over iterative - because some situations  iteration fast
+- we can't use all the place Recursion over iterative - because some situations  iteration fast
 
 #### When to choose recursion?
 - If you can divide the problem inti simialr problems
