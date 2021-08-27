@@ -124,3 +124,13 @@ def recursionMethod(parameters):
     else:
         recursionMethod(modified Parameter)
 ```
+- Stack memory (LIFO) is used by the system for managing recursive calls.
+```python
+def recursiveMethod(n):
+    if n<1:
+        print("n is less than 1")
+    else: 
+        recursiveMethod(n-1)
+        print(n)
+```
+- if we call recusiveMethod()
