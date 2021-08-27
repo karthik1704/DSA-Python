@@ -133,4 +133,6 @@ def recursiveMethod(n):
         recursiveMethod(n-1)
         print(n)
 ```
-- if we call recusiveMethod()
+- if we call recusiveMethod(4) added stack memory and execute
+- know more about how works 
+    - Goto recustion-> recursion.ipynb notebook for explanation.
