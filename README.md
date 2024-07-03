@@ -45,6 +45,14 @@
                 - Tree
 
 ## Types of algorithm
+- Sorting
+    - To sort data in ascending or descending order
+- Search
+    - To find a specific value in a data set
+- Graph
+    - To work with data that can be represented as a graph
+- Dynamic Programming
+    - To solve problems by breaking them down into smaller sub-problems
 - Simple Recursive algorithms
     - Recursive - Function calls itself
 - Divide and conquer algorithms
