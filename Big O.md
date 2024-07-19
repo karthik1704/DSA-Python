@@ -18,6 +18,14 @@ Worst Case is Big O - its a complexity that is going to be less or equal to the 
 ## Runtime Complexities
 
 ### O(1)
-- Constant Time Complexity
+- Constant Time Complexity alos called Order of one
+- any given input , the execution will not change. it remains constant
 - like simple add numbers like function
+```python
+def multiply(n):
+  return n*n
+```
+### O(n)
+- Linear time complexity
+- time complexity will grow in direct proportion to the size of input data.
 - 
